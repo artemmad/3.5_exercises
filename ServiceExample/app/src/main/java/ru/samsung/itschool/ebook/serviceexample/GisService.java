@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package ru.samsung.itschool.ebook.serviceexample;
 
 import android.app.Service;
 import android.content.Intent;

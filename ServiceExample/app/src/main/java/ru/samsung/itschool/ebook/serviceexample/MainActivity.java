@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package ru.samsung.itschool.ebook.serviceexample;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.myapplication.R;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

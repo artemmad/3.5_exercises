@@ -12,11 +12,11 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements SensorEventListener{
     private SensorManager sensorManager; //менеджер сенсоров
 
-    private float[] rotationMatrix; //Матрица поворота
+    private float[] rotationMatrix; //матрица поворота
 
-    private float[] accelerometer;  //Данные с акселерометра
-    private float[] geomagnetism;   //Данные геомагнитного датчика
-    private float[] orientation;    //Матрица положения в пространстве
+    private float[] accelerometer;  //данные с акселерометра
+    private float[] geomagnetism;   //данные геомагнитного датчика
+    private float[] orientation;    //матрица положения в пространстве
 
     private TextView xyAngle;
     private TextView xzAngle;

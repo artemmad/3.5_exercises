@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="ru.samsung.itschool.ebook.serviceexample.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
         </activity>
 
         <service
-            android:name=".GisService"
+            android:name="ru.samsung.itschool.ebook.serviceexample.GisService"
             android:enabled="true"
             android:exported="true">
 
